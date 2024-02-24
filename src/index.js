@@ -3,7 +3,7 @@ const MORGAN = require("morgan");
 const { urlencoded, json } = require("body-parser");
 const helmet = require("helmet");
 const cors = require("cors");
-const router = require("../app/router/index")
+const router = require("./app/router/index")
 
 
 
